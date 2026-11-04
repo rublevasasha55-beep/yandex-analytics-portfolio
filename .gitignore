@@ -1,0 +1,43 @@
+# Локальная среда и служебные файлы
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Не публикуем исходные базы и рабочие копии заданий
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+private-work/
+originals/
+
+# Секреты
+.env
+.env.*
+
+
+# Python environments
+.venv/
+.venv-py39-backup/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Original source files and working copies
+originals/
+workbench/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
